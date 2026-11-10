@@ -5,3 +5,4 @@ RUN pip install --no-cache-dir --default-timeout=120 --retries 10 -r requirement
 COPY app/ .
 EXPOSE 8080
 CMD ["python", "main.py"]
+INVALID_INSTRUCTION
